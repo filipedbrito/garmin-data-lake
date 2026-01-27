@@ -4,7 +4,7 @@
 ## Objetivo
 Construir, na prática, um data lake analítico em arquitetura moderna, utilizando serviços da AWS e orquestração de pipelines, cobrindo todo o ciclo de dados: ingestão, transformação e disponibilização para análise.
 
-O projeto utiliza dados do **Garmin Connect** para monitorar e analisar métricas pessoais de saúde e performance esportiva com foco em atividades físicas (principalmente corrida) e correlação com dados como sono, frequência cardíaca e indicadores diários de saúde.
+O projeto utiliza dados do **Garmin Connect** para monitorar e analisar métricas pessoais - do próprio autor - de saúde e performance esportiva com foco em atividades físicas (principalmente corrida) e correlação com dados como sono, frequência cardíaca e indicadores diários de saúde.
 
 ---
 
@@ -15,7 +15,7 @@ O projeto utiliza dados do **Garmin Connect** para monitorar e analisar métrica
 - **Orquestração:** Apache Airflow
 - **Transformações:** Python e dbt
 - **Arquitetura de dados:** Bronze / Silver / Gold
-- **Visualização:** Metabase (ou ferramenta equivalente)
+- **Visualização:** Metabase ou ferramenta equivalente
 - **Versionamento:** GitHub
 
 ---
@@ -42,6 +42,7 @@ garmin-data-lake/
 ├── tests/              # Testes do projeto
 ├── README.md
 └── requirements.txt
+```
 
 ---
 
